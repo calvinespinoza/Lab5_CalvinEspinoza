@@ -95,14 +95,15 @@ int main()
                         cin >> option1;
 
                         Funcion f1 = funciones.at(option1-1);
-                        /*
+                        //Funcion f2 = funciones.at(option1-1);
+
                         int num = ++f1;
                         if (num != 1)
                         {
                                 cout << "El factor comun es: " << num;
                         } else {
                                 cout << "No hay factor comun";
-                        }*/
+                        }
                 }
                 else if (opcion == 7)
                 {

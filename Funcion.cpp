@@ -154,18 +154,17 @@ string Funcion::operator!= (Funcion op)
         }
 }
 
-/*
-int Function::operator++ (Function op)
+
+int Funcion::operator++ ()
 {
         int value = 1;
         int retval = 1;
         int cont = 0;
         int c = 0;
-        for (int value = 0; value < 10; i++) {
+        for (int value = 0; value < 10; value++) {
                 for (int i = 0; i < this -> grado; i++) {
-                        c = op.getCoeficiente(i);
-                        cont++;
-                        if (c%value = 0) {
+                        this -> coeficientes[i];
+                        if (c%value == 0) {
                                 cont++;
                         }
                         if (cont == grado){
@@ -175,7 +174,7 @@ int Function::operator++ (Function op)
         }
         return retval;
 }
-*/
+
 string Funcion::toString()const {
 	stringstream ss;
 	for (int i = grado; i >= 0; i--) {

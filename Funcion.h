@@ -30,7 +30,7 @@ class Funcion {
         	Funcion operator/(Funcion);
                 string operator==(Funcion);
                 string operator!=(Funcion);
-                //string operator++(Funcion);
+                int operator++();
 
                 string toString()const;
 };
