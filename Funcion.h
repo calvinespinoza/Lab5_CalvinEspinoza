@@ -24,14 +24,13 @@ class Funcion {
                 int getCoeficiente(int);
                 void setCoeficiente(int,int);
 
-                //void crearFuncion();
                 Funcion operator+(Funcion);
                 Funcion operator-(Funcion);
         	Funcion operator*(Funcion);
         	Funcion operator/(Funcion);
                 string operator==(Funcion);
                 string operator!=(Funcion);
-                //int operator"()"(Funcion);
+                //string operator++(Funcion);
 
                 string toString()const;
 };

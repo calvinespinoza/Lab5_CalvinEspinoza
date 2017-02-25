@@ -87,6 +87,23 @@ int main()
                         cout << f3 << endl;
                         respuestas.push_back(f3);
                 }
+                else if (opcion == 6)
+                {
+                        int option1 = 0;
+                        imprimirVector(funciones);
+                        cout << "Ingrese su opcion: " << endl;
+                        cin >> option1;
+
+                        Funcion f1 = funciones.at(option1-1);
+                        /*
+                        int num = ++f1;
+                        if (num != 1)
+                        {
+                                cout << "El factor comun es: " << num;
+                        } else {
+                                cout << "No hay factor comun";
+                        }*/
+                }
                 else if (opcion == 7)
                 {
                         int option1 = 0, option2 = 0;
@@ -129,7 +146,10 @@ int main()
                 }
                 else if (opcion == 9)
                 {
+                        cout << "Funciones: " << endl;
                         imprimirVector(funciones);
+                        cout << "Respuestas: " << endl;
+                        imprimirVector(respuestas);
                 }
 
                 else if (opcion == 10)
